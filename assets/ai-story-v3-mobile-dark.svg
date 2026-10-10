@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="628" viewBox="0 0 360 628" role="img" aria-labelledby="aiTitle aiDesc" data-model="agent-constellation-and-human-review-loop" data-variant="mobile" data-version="v3">
+<title id="aiTitle">Agent responsibilities share a brief, while a human owns acceptance</title>
+<desc id="aiDesc">Planning, technical review, implementation, and quality review share a task brief and decisions. Review can request revision; the human owner accepts or defers the change.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif}path,rect,circle,ellipse{shape-rendering:geometricPrecision}</style>
+<rect x="0" y="0" width="360" height="628" rx="18" fill="#171f26" stroke="none" stroke-width="1.5"/>
+<text x="24" y="29" font-size="16" font-weight="600" fill="#86d1a9" text-anchor="start">AGENTCREW / AI ENGINEERING WORKFLOW</text>
+<text x="24" y="66" font-size="27" font-weight="600" fill="#f1ece2" text-anchor="start">A team around</text>
+<text x="24" y="102" font-size="27" font-weight="600" fill="#f1ece2" text-anchor="start">the task&#x27;s context.</text>
+<path d="M180 181V288 M81 275V323H104 M279 275V334H256 M134 378V395 M226 378V395" fill="none" stroke="#3c4b54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<rect x="105" y="135" width="150" height="45" rx="22" fill="#293e35" stroke="#86d1a9" stroke-width="1.5"/>
+<text x="180" y="164" font-size="18" font-weight="600" fill="#f1ece2" text-anchor="middle">Product planning</text>
+<rect x="19" y="208" width="125" height="65" rx="20" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<text x="81" y="234" font-size="18" font-weight="400" fill="#f1ece2" text-anchor="middle">Delivery</text>
+<text x="81" y="258" font-size="18" font-weight="400" fill="#f1ece2" text-anchor="middle">planning</text>
+<rect x="216" y="208" width="125" height="65" rx="20" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<text x="279" y="234" font-size="18" font-weight="400" fill="#f1ece2" text-anchor="middle">Technical</text>
+<text x="279" y="258" font-size="18" font-weight="400" fill="#f1ece2" text-anchor="middle">review</text>
+<path d="M106 290H226L254 317V376H106Z" fill="#293e35" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M226 290V317H254" fill="none" stroke="#86d1a9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="121" y="324" font-size="21" font-weight="600" fill="#f1ece2" text-anchor="start">Task brief</text>
+<text x="121" y="351" font-size="19" font-weight="400" fill="#f1ece2" text-anchor="start">+ decisions</text>
+<rect x="19" y="400" width="150" height="61" rx="22" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<text x="94" y="436" font-size="18" font-weight="600" fill="#f1ece2" text-anchor="middle">Implementation</text>
+<rect x="200" y="400" width="141" height="61" rx="22" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<text x="271" y="424" font-size="18" font-weight="400" fill="#f1ece2" text-anchor="middle">Quality</text>
+<text x="271" y="449" font-size="18" font-weight="400" fill="#f1ece2" text-anchor="middle">review</text>
+<path d="M175 431H193" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M187 426L193 431L187 436" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M267 466V491H89V469" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M84 475L89 469L94 475" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="177" y="487" font-size="18" font-weight="400" fill="#c0cbd0" text-anchor="middle">Request revision</text>
+<path d="M343 434H350V538H309" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M315 533L309 538L315 543" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="58" y="519" width="244" height="38" rx="19" fill="#293e35" stroke="#86d1a9" stroke-width="1.5"/>
+<text x="180" y="545" font-size="19" font-weight="600" fill="#f1ece2" text-anchor="middle">Human: accept or defer</text>
+<path d="M24 562H336" fill="none" stroke="#3c4b54" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="584" font-size="18" font-weight="400" fill="#c0cbd0" text-anchor="start">Scope + diff + review record travel.</text>
+<text x="24" y="608" font-size="18" font-weight="400" fill="#c0cbd0" text-anchor="start">A human owns the acceptance decision.</text>
+</svg>

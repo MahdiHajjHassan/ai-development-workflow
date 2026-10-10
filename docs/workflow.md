@@ -1,6 +1,10 @@
 # Workflow mechanics
 
-I designed this independent reference workflow for a fictional storefront, separate from my final-year project and employer work. The storefront demonstration uses an Express REST API and a JavaScript browser application; this repository provides documentation and illustrative templates, not that application's private source.
+> [!CAUTION]
+> **Workflow showcase.**
+> AgentCrew documents my AI engineering approach through a storefront example and task templates. The application source is private; this repository does not include a runnable orchestrator or executed check results. Diagrams are explanatory illustrations. This work is separate from my university final-year project and employer work.
+
+I designed AgentCrew around a storefront with an Express REST API and a JavaScript browser application. The workflow connects product intent, bounded implementation, quality review, and human acceptance.
 
 ## Responsibilities and artifacts
 
@@ -25,10 +29,6 @@ A continuation starts from the recorded state and current repository, rather tha
 
 Staging makes a proposed change inspectable before acceptance. QA compares it with the acceptance criteria and records the exact checks performed. An unexecuted check stays unexecuted; a generated test or an agent's assertion is not a passed result.
 
-The [review record](../examples/task-review.md) illustrates how to collect this evidence. It contains no fabricated pass results.
-
-## Demonstration boundary
-
-The original demonstration staged a small API change within a fictional storefront. This showcase explains the process. It does not provide a runnable agent orchestrator, publish employer work, or establish production deployment or measured productivity gains.
+The [review record](../examples/task-review.md) illustrates how to collect this evidence. It links each criterion to the evidence required for acceptance.
 
 [Project overview](../README.md)

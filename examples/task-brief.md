@@ -1,6 +1,10 @@
 # Example task brief
 
-Illustrative template populated with a fictional storefront requirement. It documents the task contract; no application diff or executed check results are included.
+> [!CAUTION]
+> **Workflow showcase.**
+> AgentCrew documents my AI engineering approach through a storefront example and task templates. The application source is private; this repository does not include a runnable orchestrator or executed check results. Diagrams are explanatory illustrations. This work is separate from my university final-year project and employer work.
+
+The task contract connects a shopper's need to an endpoint, browser view, and review criteria.
 
 ## Product need
 
@@ -8,7 +12,7 @@ A shopper needs to inspect a catalog item's details before deciding whether to b
 
 ## Scope
 
-Add an item-detail endpoint and browser view within the existing fictional storefront. Payment, authentication, inventory management, and checkout are outside this task.
+Add an item-detail endpoint and browser view within the existing storefront. Payment, authentication, inventory management, and checkout are outside this task.
 
 ## Acceptance criteria
 
@@ -26,6 +30,6 @@ Add an item-detail endpoint and browser view within the existing fictional store
 
 ## Implementation boundary
 
-Resolve those questions against the application before writing changes. Use fictional fixtures. Prepare a scoped diff and record executed checks in the companion review record.
+Resolve those questions against the application before writing changes. Use fixtures that match the public catalog contract. Prepare a scoped diff and record executed checks in the companion review record.
 
 [Project overview](../README.md) · [Review record](task-review.md)
