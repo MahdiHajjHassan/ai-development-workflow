@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="476" viewBox="0 0 680 476" role="img" aria-labelledby="aiTitle aiDesc" data-model="agent-constellation-and-human-review-loop" data-variant="desktop" data-version="v2">
+<title id="aiTitle">Agent responsibilities share a brief, while a human owns acceptance</title>
+<desc id="aiDesc">Workflow concept, separate from the final-year orchestration project. Product planning, delivery planning, technical review, implementation, and quality review share a task brief and decisions. Review can request revision; the human owner accepts or defers. No checks or automation are claimed to have executed.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif}path,rect,circle,ellipse{shape-rendering:geometricPrecision}</style>
+<rect x="0" y="0" width="680" height="476" rx="18" fill="#171f26" stroke="none" stroke-width="1.5"/>
+<text x="24" y="29" font-size="14" font-weight="600" fill="#86d1a9" text-anchor="start">AGENT WORKFLOW CONCEPT</text>
+<text x="24" y="64" font-size="27" font-weight="600" fill="#f1ece2" text-anchor="start">A team around the task&#x27;s context.</text>
+<path d="M340 159V212 M236 231L190 173 M441 231L490 173 M237 309L173 346 M439 309L512 346" fill="none" stroke="#3c4b54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<rect x="239" y="100" width="202" height="57" rx="28" fill="#293e35" stroke="#86d1a9" stroke-width="1.5"/>
+<text x="340" y="135" font-size="19" font-weight="600" fill="#f1ece2" text-anchor="middle">Product planning</text>
+<rect x="37" y="163" width="182" height="71" rx="26" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<text x="128" y="192" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Delivery planning</text>
+<text x="128" y="216" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Tasks + dependencies</text>
+<rect x="464" y="163" width="182" height="71" rx="26" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<text x="555" y="192" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Technical review</text>
+<text x="555" y="216" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Design boundaries</text>
+<path d="M236 214H413L441 242V322H236Z" fill="#293e35" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M413 214V242H441" fill="none" stroke="#86d1a9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="257" y="251" font-size="21" font-weight="600" fill="#f1ece2" text-anchor="start">Shared task brief</text>
+<text x="257" y="280" font-size="18" font-weight="400" fill="#f1ece2" text-anchor="start">Scope + decisions</text>
+<path d="M258 300H416" fill="none" stroke="#3c4b54" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="37" y="316" width="182" height="65" rx="25" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<text x="128" y="342" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Implementation</text>
+<text x="128" y="366" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Diff + work record</text>
+<rect x="464" y="316" width="182" height="65" rx="25" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<text x="555" y="342" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Quality review</text>
+<text x="555" y="366" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Checks + gaps</text>
+<path d="M227 349H455" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M449 344L455 349L449 354" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M555 388V413H128V388" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M123 394L128 388L133 394" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="340" y="404" font-size="17" font-weight="400" fill="#c0cbd0" text-anchor="middle">Request revision</text>
+<path d="M650 349H658V440H471" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M477 435L471 440L477 445" fill="none" stroke="#86d1a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="216" y="425" width="248" height="31" rx="15" fill="#293e35" stroke="#86d1a9" stroke-width="1.5"/>
+<text x="340" y="446" font-size="16" font-weight="600" fill="#f1ece2" text-anchor="middle">Human owns acceptance + release</text>
+<text x="27" y="465" font-size="13" font-weight="400" fill="#c0cbd0" text-anchor="start">Fictional workflow · Review evidence not executed</text>
+</svg>

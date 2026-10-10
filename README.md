@@ -13,10 +13,10 @@ This independent reference follows that handoff through a fictional storefront.
 *Public showcase: workflow documentation and illustrative task templates. Separate from my final-year multi-agent orchestration project.*
 
 <picture>
-  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-mobile-dark.svg">
-  <source media="(max-width: 540px)" srcset="assets/ai-story-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-dark.svg">
-  <img src="assets/ai-story-light.svg" width="680" alt="A fictional storefront task carries its brief through planning, implementation, and review, with the human owner responsible for the decisions.">
+  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v2-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/ai-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v2-dark.svg">
+  <img src="assets/ai-story-v2-light.svg" width="680" alt="Workflow concept: agent responsibilities share a task brief and decisions, with implementation, quality review, a revision loop, and human acceptance; checks not executed.">
 </picture>
 
 *Concept illustration of the workflow and its handoffs.*
