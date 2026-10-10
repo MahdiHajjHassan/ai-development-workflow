@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="288" viewBox="0 0 680 288" role="img" aria-labelledby="ai-title ai-description">
+  <title id="ai-title">The context travels with the task</title>
+  <desc id="ai-description">Concept illustration of an AI-assisted task passing a brief, a scoped change, and review evidence between responsibilities, with a human decision. Documentation example, not executed automation.</desc>
+  <style>text{font-family:Segoe UI,Arial,sans-serif;font-size:27px;font-weight:500;fill:#24313b}.small{font-size:23px;font-weight:400}.paper{fill:#ffffff;stroke:#d9dedb;stroke-width:1.5}.flow{stroke:#bb642e;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}.rule{stroke:#d9dedb;stroke-width:2;fill:none}</style>
+  <rect width="680" height="288" rx="14" fill="#faf8f3"/>
+
+  <text x="28" y="44">Brief.</text>
+  <text x="251" y="44">Build.</text>
+  <text x="475" y="44">Review.</text>
+  <rect x="28" y="73" width="176" height="133" rx="10" class="paper"/>
+  <rect x="251" y="73" width="176" height="133" rx="10" class="paper"/>
+  <rect x="475" y="73" width="176" height="133" rx="10" class="paper"/>
+  <text class="small" x="46" y="110">Purpose</text>
+  <text class="small" x="46" y="143">Scope</text>
+  <text class="small" x="269" y="110">Scoped diff</text>
+  <text class="small" x="269" y="143">Work record</text>
+  <text class="small" x="493" y="110">Checks</text>
+  <text class="small" x="493" y="143">Open gaps</text>
+  <path d="M46 170H185 M269 170H409 M493 170H633" class="rule"/>
+  <path d="M214 140H240 M233 134L240 140L233 146 M437 140H464 M457 134L464 140L457 146" class="flow"/>
+  <path d="M115 222H561" class="flow"/>
+  <text class="small" text-anchor="middle" x="340" y="263">Human owns the decision.</text>
+</svg>
