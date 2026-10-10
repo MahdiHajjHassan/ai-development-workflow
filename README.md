@@ -6,20 +6,10 @@ This repository documents that independent workflow and a demonstration for a fi
 
 ## How I organize the work
 
-~~~mermaid
-flowchart TD
-    Idea["Product need"] --> Planning["Product and delivery planning"]
-    Planning --> Design["Technical review"]
-    Design --> Build["Scoped implementation"]
-    Build --> QA{"Acceptance checks"}
-    QA -->|Changes needed| Build
-    QA -->|Ready for review| Human{"My review and release decision"}
-    Human -->|Revise| Design
-    Human -->|Approve| Delivery["Accepted change"]
-    Context["Versioned instructions and task context"] -.-> Planning
-    Context -.-> Build
-    Context -.-> QA
-~~~
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/review-workflow-dark.svg">
+  <img alt="AI planning, implementation, and acceptance checks are guided by technical review, with revision paths and my final release decision." src="assets/review-workflow-light.svg" width="500">
+</picture>
 
 Each stage has a concrete output. A task carries requirements and constraints into implementation, QA checks the result, and feedback sends it back for revision. Passing an automated check does not replace my decision about the design or release.
 
