@@ -2,7 +2,7 @@
 
 ## My AI engineering team: planning, implementation, and review
 
-I want an AI-assisted task to carry its purpose all the way to review.
+I designed an AI engineering workflow that carries a task's purpose all the way to review.
 AgentCrew presents my approach to that work: give each responsibility a clear brief,
 keep decisions with the task, and ask for evidence before accepting a change.
 
@@ -27,8 +27,8 @@ A request can sound small and still contain several decisions.
 Which behavior matters to the user? Which information can be shown?
 What must keep working when the change is finished?
 
-My role is to define the brief, make the design decisions, and set the checkpoints.
-I organize responsibilities around outputs another person can inspect.
+I defined the briefs, design decisions, and checkpoints.
+I organized responsibilities around outputs another person can inspect.
 The task record connects the request to the proposed change and the eventual review.
 
 ### One shopper, one bounded change
@@ -45,7 +45,7 @@ The brief turns that simple interaction into specific expectations:
 - Internal purchasing costs stay out of the response and the view.
 - Existing catalog browsing continues to work.
 
-Before implementation, I need the public response contract and the existing error convention settled.
+The brief requires the public response contract and existing error convention to be settled before implementation.
 Those choices tell the implementer where the task begins and ends.
 They also give the reviewer something concrete to compare with the change.
 
@@ -60,7 +60,7 @@ In this example, the review record is deliberately blank: every scenario is **No
 It shows what evidence belongs there when someone performs the work.
 A plausible patch still leaves the owner with a decision to make.
 
-I keep that accountability with the human responsible for the product:
+I designed the acceptance boundary around the human responsible for the product:
 accept the change, request a revision, or defer it with the remaining concerns recorded.
 
 <details>

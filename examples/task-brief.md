@@ -1,6 +1,6 @@
 # Example task brief
 
-Illustrative template populated with a fictional storefront requirement. It is not a completed implementation or a copy of a private project ticket.
+Illustrative template populated with a fictional storefront requirement. It documents the task contract; no application diff or executed check results are included.
 
 ## Product need
 

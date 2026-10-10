@@ -1,6 +1,6 @@
 # Workflow mechanics
 
-This documents an independent reference workflow for a fictional storefront, separate from my final-year project and employer work. The storefront demonstration uses an Express REST API and a JavaScript browser application; this repository provides documentation and illustrative templates, not that application's private source.
+I designed this independent reference workflow for a fictional storefront, separate from my final-year project and employer work. The storefront demonstration uses an Express REST API and a JavaScript browser application; this repository provides documentation and illustrative templates, not that application's private source.
 
 ## Responsibilities and artifacts
 
@@ -29,6 +29,6 @@ The [review record](../examples/task-review.md) illustrates how to collect this 
 
 ## Demonstration boundary
 
-The original demonstration stages a small API change within a fictional storefront. This showcase explains the process. It does not provide a runnable agent orchestrator, publish employer work, or establish production deployment or measured productivity gains.
+The original demonstration staged a small API change within a fictional storefront. This showcase explains the process. It does not provide a runnable agent orchestrator, publish employer work, or establish production deployment or measured productivity gains.
 
 [Project overview](../README.md)
