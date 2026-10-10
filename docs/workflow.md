@@ -1,6 +1,6 @@
 # Workflow mechanics
 
-This documents my independent personal approach. The storefront demonstration uses an Express REST API and a JavaScript browser application; this repository provides documentation and illustrative templates, not that application's private source.
+This documents an independent reference workflow for a fictional storefront, separate from my final-year project and employer work. The storefront demonstration uses an Express REST API and a JavaScript browser application; this repository provides documentation and illustrative templates, not that application's private source.
 
 ## Responsibilities and artifacts
 
@@ -13,7 +13,7 @@ This documents my independent personal approach. The storefront demonstration us
 | Quality review | Acceptance criteria and changes | Check results, findings, and remaining gaps |
 | Human ownership | Design choices and review evidence | Tradeoffs, acceptance, and release decisions |
 
-Agents can carry out responsibilities without taking ownership of the product. I remain responsible for the system and the final decision.
+Agents can carry out responsibilities without taking ownership of the product. Human ownership remains with the person responsible for the system and the final decision.
 
 ## Keep context in the project
 
