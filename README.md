@@ -8,8 +8,10 @@ This repository contains documentation and illustrative task templates; the orig
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/review-workflow-dark.svg">
-  <img alt="AI planning, implementation, and acceptance checks are guided by technical review, with revision paths and my final release decision." src="assets/review-workflow-light.svg" width="500">
+  <img alt="In the fictional storefront reference, product and delivery planning lead to technical review, scoped implementation, acceptance checks, and a human release decision. Revision paths return work for changes." src="assets/review-workflow-light.svg" width="500">
 </picture>
+
+The diagram's first-person labels represent the human owner of the fictional storefront.
 
 Each stage has a concrete output. A task carries requirements and constraints into implementation, QA checks the result, and feedback sends it back for revision. Passing an automated check does not replace the owner's decision about the design or release.
 
