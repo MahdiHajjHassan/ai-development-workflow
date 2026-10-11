@@ -3,11 +3,11 @@
 > [!CAUTION]
 > **Public workflow documentation.** This repository contains workflow documentation and example task templates; the application source is private. It does not publish a runnable agent orchestrator or executed test results. The storefront is an illustrative task, and diagrams explain the workflow.
 
-## From a feature request to a reviewed code change
+## Turn a feature request into a reviewable software change
 
-AI can help write code, but a software task also needs clear requirements, technical decisions, and review. I designed AgentCrew to connect those steps for developers and product owners.
+AgentCrew is an AI-assisted delivery workflow for developers and product owners. It connects requirements, technical planning, implementation and quality review, with a person deciding whether the resulting change is ready or needs revision.
 
-**My contribution:** I defined the planning, implementation, and review responsibilities, the information each stage passed on, and the points where a person approved the design or change.
+**My contribution:** I designed the stages, agent responsibilities and task records, defined the information passed between stages, and placed human approval at the design and change-review points.
 
 <picture>
   <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v5-mobile-dark.svg">
@@ -16,35 +16,33 @@ AI can help write code, but a software task also needs clear requirements, techn
   <img src="assets/ai-story-v5-light.svg" width="680" alt="A feature request becomes a shared plan and task brief. Implementation produces code changes, quality review returns findings, and a product owner approves the change or requests a revision that returns to implementation.">
 </picture>
 
-### A concrete task: show a shopper an item's details
+### What I designed
 
-A shopper opens a catalog item before deciding whether to buy it. The task covers an API endpoint and a browser page: show public item fields, handle missing or invalid identifiers, and keep internal purchasing costs out of the response.
+- **A shared task brief:** the user need, expected behavior and scope travel with the task.
+- **Specialist responsibilities:** planning, technical review, implementation and quality review each produce an output for the next stage.
+- **Traceable decisions:** requirements, design choices, progress and deliverables stay connected in the task record.
+- **A revision path:** review findings return to implementation, and the product owner can accept, revise or defer the change.
 
-I used that task to organize the workflow:
+### Follow one feature through the workflow
 
-1. **Plan:** define the shopper's need and the expected behavior.
-2. **Review the approach:** agree on the API fields, error handling, and affected parts of the application.
-3. **Implement:** prepare the code changes and record what changed.
-4. **Check:** compare the change with the requirements and record the checks and findings.
-5. **Approve or revise:** the product owner reviews the change and decides whether it is ready.
+The storefront task is an item-detail API endpoint and browser page. A shopper needs public item information; the response must handle invalid or missing identifiers and exclude internal purchasing costs.
 
-### Keep the next person able to continue
+| Stage | Work for this task | Handoff |
+| --- | --- | --- |
+| Product planning | Define what the shopper needs and the expected behavior. | Requirements and acceptance criteria. |
+| Technical review | Agree on response fields, error handling and affected application areas. | API contract and implementation scope. |
+| Implementation | Prepare the endpoint and page changes. | Code changes and a record of the work. |
+| Quality review | Compare the change with the agreed behavior. | Findings and requested corrections. |
+| Human approval | Inspect the result and decide whether it is ready. | Acceptance or a return to revision. |
 
-Each stage receives the requirements and recorded decisions. A reviewer can see why a field belongs in the response, how an unknown item should behave, and which existing browsing behavior must still work.
-
-This is the engineering problem behind AgentCrew: connecting AI-assisted work to a change a person can understand, inspect, and approve.
+A reviewer can follow a requirement from the brief to the implementation and its review record. The product owner retains the final decision about the change.
 
 <details>
 <summary><strong>Engineering details: agent responsibilities, task records, and review</strong></summary>
 
-| Responsibility | Output for the next stage |
-| --- | --- |
-| Product planning | Requirements and acceptance criteria. |
-| Delivery planning | Tasks, dependencies, and progress. |
-| Technical review | API contracts, design decisions, and scope. |
-| Implementation | Code changes and a record of the work. |
-| Quality review | Check results, findings, and requested corrections. |
-| Human approval | A decision to accept, revise, or defer the change. |
+### Coordination and continuity
+
+Product planning establishes acceptance criteria. Delivery planning organizes tasks, dependencies and progress. Technical review defines contracts and scope before implementation; quality review records findings afterward.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/ai-development-workflow/main/assets/review-workflow-dark.svg">
@@ -53,11 +51,11 @@ This is the engineering problem behind AgentCrew: connecting AI-assisted work to
 
 ### Task records
 
-I organized requests, decisions, progress, and deliverables together. Project instructions held coding conventions, reusable skills described recurring work, and a linked knowledge base made the decisions easy to find. Before resuming a task, the workflow compared the recorded progress with the current repository.
+I organized requests, decisions, progress and deliverables together. Project instructions hold coding conventions, reusable skills describe recurring work, and a linked knowledge base makes decisions available to the next stage. Before resuming, the workflow compares recorded progress with the current repository.
 
 ### Review criteria
 
-For the item-detail task, review covers public response fields, invalid and missing identifiers, internal-field exclusion, and existing catalog browsing. The review record connects each requirement to the changed code and check results.
+The item-detail review covers public response fields, invalid and missing identifiers, internal-field exclusion and existing catalog browsing. The task record connects these criteria to the changed code and reported checks.
 
 The example application uses an Express REST API and a JavaScript browser application.
 
