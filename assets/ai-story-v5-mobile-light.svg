@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1510" viewBox="0 0 360 1510" role="img" aria-labelledby="aiTitle aiDesc" data-model="task-brief-code-change-review-and-product-owner-decision" data-variant="mobile" data-version="v5">
+<title id="aiTitle">AI software delivery: requirements, code changes, review, and human approval</title>
+<desc id="aiDesc">A feature request becomes a shared plan and task brief. Implementation produces code changes, quality review returns findings, and a product owner approves the change or requests a revision that returns to implementation.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif}path,rect,circle,ellipse{shape-rendering:geometricPrecision}</style>
+<rect x="0" y="0" width="360" height="1510" rx="18" fill="#f5f7fa" stroke="none" stroke-width="1.5"/>
+<text x="20" y="54" font-size="29" font-weight="600" fill="#1c2d42" text-anchor="start">From request</text>
+<text x="20" y="94" font-size="29" font-weight="600" fill="#1c2d42" text-anchor="start">to reviewed code.</text>
+<path d="M20 132H318L340 154V296H20Z" fill="#ffffff" stroke="#ccd7e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M318 132V154H340" fill="none" stroke="#ccd7e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="170" font-size="22" font-weight="600" fill="#1c2d42" text-anchor="start">Feature request</text>
+<text x="38" y="205" font-size="20" font-weight="400" fill="#1c2d42" text-anchor="start">Show an item&#x27;s details</text>
+<text x="38" y="239" font-size="17" font-weight="400" fill="#52647b" text-anchor="start">Public fields and useful errors</text>
+<text x="38" y="267" font-size="17" font-weight="400" fill="#52647b" text-anchor="start">No internal costs</text>
+<path d="M180 296V330" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M175 324L180 330L185 324" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="20" y="342" width="320" height="288" rx="12" fill="#ffffff" stroke="#ccd7e5" stroke-width="1.5"/>
+<text x="38" y="380" font-size="21" font-weight="600" fill="#1c2d42" text-anchor="start">Planning + technical review</text>
+<path d="M20 397H340" fill="none" stroke="#ccd7e5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="425" font-size="18" font-weight="600" fill="#276a4f" text-anchor="start">Product planner</text>
+<text x="38" y="452" font-size="17" font-weight="400" fill="#1c2d42" text-anchor="start">Requirements + acceptance criteria</text>
+<text x="38" y="493" font-size="18" font-weight="600" fill="#276a4f" text-anchor="start">Delivery planner</text>
+<text x="38" y="520" font-size="17" font-weight="400" fill="#1c2d42" text-anchor="start">Tasks + dependencies</text>
+<text x="38" y="561" font-size="18" font-weight="600" fill="#276a4f" text-anchor="start">Technical reviewer</text>
+<text x="38" y="588" font-size="17" font-weight="400" fill="#1c2d42" text-anchor="start">API contract + scope decisions</text>
+<path d="M190 630V662" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M185 656L190 662L195 656" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40 674H318L340 696V876H40Z" fill="#ffffff" stroke="#ccd7e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M318 674V696H340" fill="none" stroke="#ccd7e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="58" y="714" font-size="21" font-weight="600" fill="#1c2d42" text-anchor="start">Implementation agent</text>
+<text x="58" y="745" font-size="18" font-weight="600" fill="#276a4f" text-anchor="start">Code change</text>
+<path d="M40 759H340" fill="none" stroke="#ccd7e5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58 785H68 M63 780V790" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="81" y="791" font-size="17" font-weight="400" fill="#1c2d42" text-anchor="start">API response fields</text>
+<path d="M58 817H68 M63 812V822" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="81" y="823" font-size="17" font-weight="400" fill="#1c2d42" text-anchor="start">Item-detail page</text>
+<text x="58" y="857" font-size="17" font-weight="400" fill="#52647b" text-anchor="start">Change record</text>
+<path d="M190 876V908" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M185 902L190 908L195 902" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="40" y="920" width="300" height="224" rx="12" fill="#ffffff" stroke="#ccd7e5" stroke-width="1.5"/>
+<text x="58" y="960" font-size="21" font-weight="600" fill="#1c2d42" text-anchor="start">Quality review agent</text>
+<text x="58" y="991" font-size="18" font-weight="600" fill="#276a4f" text-anchor="start">Review record</text>
+<path d="M40 1005H340" fill="none" stroke="#ccd7e5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="58" y="1023" width="13" height="13" rx="2" fill="#ffffff" stroke="#52647b" stroke-width="1.5"/>
+<text x="82" y="1038" font-size="17" font-weight="400" fill="#1c2d42" text-anchor="start">Public fields</text>
+<rect x="58" y="1060" width="13" height="13" rx="2" fill="#ffffff" stroke="#52647b" stroke-width="1.5"/>
+<text x="82" y="1075" font-size="17" font-weight="400" fill="#1c2d42" text-anchor="start">Missing / invalid IDs</text>
+<rect x="58" y="1097" width="13" height="13" rx="2" fill="#ffffff" stroke="#52647b" stroke-width="1.5"/>
+<text x="82" y="1112" font-size="17" font-weight="400" fill="#1c2d42" text-anchor="start">Existing browsing</text>
+<path d="M190 1144V1212" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M185 1206L190 1212L195 1206" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M190 1212L320 1288L190 1364L60 1288Z" fill="#e7f1e9" stroke="#276a4f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="190" y="1279" font-size="20" font-weight="600" fill="#1c2d42" text-anchor="middle">Product owner</text>
+<text x="190" y="1311" font-size="18" font-weight="400" fill="#1c2d42" text-anchor="middle">Approve or revise</text>
+<path d="M60 1288H20V791H40" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34 786L40 791L34 796" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="40" y="1184" font-size="17" font-weight="600" fill="#276a4f" text-anchor="start">Request revision</text>
+<path d="M190 1364V1410" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M185 1404L190 1410L195 1404" fill="none" stroke="#276a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="218" y="1397" font-size="17" font-weight="600" fill="#276a4f" text-anchor="start">Approve</text>
+<rect x="40" y="1422" width="300" height="66" rx="12" fill="#e7f1e9" stroke="#276a4f" stroke-width="1.5"/>
+<text x="190" y="1464" font-size="20" font-weight="600" fill="#1c2d42" text-anchor="middle">Accepted code change</text>
+</svg>

@@ -10,10 +10,10 @@ AI can help write code, but a software task also needs clear requirements, techn
 **My contribution:** I defined the planning, implementation, and review responsibilities, the information each stage passed on, and the points where a person approved the design or change.
 
 <picture>
-  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v4-mobile-dark.svg">
-  <source media="(max-width: 540px)" srcset="assets/ai-story-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v4-dark.svg">
-  <img src="assets/ai-story-v4-light.svg" width="680" alt="Planning and technical review define the task. Implementation supplies code changes, quality review checks them, and a person approves the change or requests revision.">
+  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v5-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/ai-story-v5-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v5-dark.svg">
+  <img src="assets/ai-story-v5-light.svg" width="680" alt="A feature request becomes a shared plan and task brief. Implementation produces code changes, quality review returns findings, and a product owner approves the change or requests a revision that returns to implementation.">
 </picture>
 
 ### A concrete task: show a shopper an item's details
