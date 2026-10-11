@@ -1,35 +1,35 @@
-# Example task brief
+# AgentCrew | Item-Detail Task Brief
 
 > [!CAUTION]
-> **Workflow showcase.**
-> AgentCrew documents my AI engineering approach through a storefront example and task templates. The application source is private; this repository does not include a runnable orchestrator or executed check results. Diagrams are explanatory illustrations. This work is separate from my university final-year project and employer work.
+> **Public workflow documentation.** This repository contains workflow documentation and example task templates; the application source is private. It does not publish a runnable agent orchestrator or executed test results. The storefront is an illustrative task, and diagrams explain the workflow.
 
-The task contract connects a shopper's need to an endpoint, browser view, and review criteria.
-
-## Product need
+## User need
 
 A shopper needs to inspect a catalog item's details before deciding whether to buy it.
 
-## Scope
+## Requested change
 
-Add an item-detail endpoint and browser view within the existing storefront. Payment, authentication, inventory management, and checkout are outside this task.
+An item-detail API endpoint and browser page in the existing storefront. The task covers catalog information and error handling. Checkout, payments, authentication, and inventory management are outside its scope.
 
 ## Acceptance criteria
 
-- A known identifier returns the item's public catalog fields.
-- An unknown identifier produces a not-found response and a useful browser message.
-- Invalid identifiers are rejected consistently.
-- Internal purchasing-cost fields are absent from API responses and the view.
-- Existing catalog browsing continues to work.
+| Situation | Required behavior |
+| --- | --- |
+| Known item | Return and display the public catalog fields. |
+| Unknown item | Return not found and show a useful browser message. |
+| Invalid identifier | Reject it using the application's validation convention. |
+| Internal purchasing cost | Exclude it from both the API response and the page. |
+| Existing browsing | Keep catalog browsing working. |
 
-## Technical-review questions
+## Technical decisions to record
 
-- What is the existing API error convention?
-- Which fields belong in the public response contract?
-- Which existing browsing tests should run again?
+- The public response fields.
+- The API's error format and identifier rules.
+- The application routes and components affected.
+- The checks covering the new page and existing browsing.
 
-## Implementation boundary
+## Deliverables for review
 
-Resolve those questions against the application before writing changes. Use fixtures that match the public catalog contract. Prepare a scoped diff and record executed checks in the companion review record.
+Code changes limited to the agreed task, a record of the decisions, and check results linked to the acceptance criteria.
 
-[Project overview](../README.md) · [Review record](task-review.md)
+[Project overview](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/README.md) · [Review checklist](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/examples/task-review.md)

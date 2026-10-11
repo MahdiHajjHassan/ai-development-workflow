@@ -1,32 +1,31 @@
-# Example review record
+# AgentCrew | Code Review Checklist
 
 > [!CAUTION]
-> **Workflow showcase.**
-> AgentCrew documents my AI engineering approach through a storefront example and task templates. The application source is private; this repository does not include a runnable orchestrator or executed check results. Diagrams are explanatory illustrations. This work is separate from my university final-year project and employer work.
+> **Public workflow documentation.** This repository contains workflow documentation and example task templates; the application source is private. It does not publish a runnable agent orchestrator or executed test results. The storefront is an illustrative task, and diagrams explain the workflow.
 
-Use this record to connect the task criteria to the change and supporting evidence.
+This checklist gives the reviewer a direct route from the item-detail requirements to the changed code and check results.
 
-## Scope review
+## Review the change
 
-| Review item | Evidence to record |
+| Question | What to inspect |
 | --- | --- |
-| Changed files | Exact diff or commit |
-| Requirement coverage | How each acceptance criterion is addressed |
-| Scope boundaries | Any change outside the agreed task and its reason |
-| API contract | Public fields, error responses, and validation |
+| What changed? | The changed files and diff or commit. |
+| Does it meet the task? | Each acceptance criterion and the code that addresses it. |
+| Is the API contract clear? | Public fields, validation, and error responses. |
+| Did the scope grow? | Additional changes and their reason. |
 
-## Check record
+## Check the behavior
 
-| Scenario | Evidence required before acceptance |
+| Scenario | Record |
 | --- | --- |
-| Known item | Exact command and observed response |
-| Unknown item | Not-found response and browser behavior |
-| Invalid identifier | Validation response |
-| Restricted fields | Response assertion and UI inspection |
-| Existing browsing | Regression-check output |
+| Known item | Command, observed response, and page behavior. |
+| Unknown item | Not-found response and browser message. |
+| Invalid identifier | Validation response. |
+| Internal fields | Response-field check and page inspection. |
+| Existing catalog browsing | Regression-check output. |
 
-## Human decision
+## Approval decision
 
-Record acceptance, requested revisions, or deferral only after reviewing the actual change and evidence. Include unresolved concerns and who will handle them.
+The product owner reviews the change and checklist, then records acceptance, requested corrections, or deferral. Remaining work has an owner and a clear next step.
 
-[Task brief](task-brief.md) · [Project overview](../README.md)
+[Task brief](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/examples/task-brief.md) · [Project overview](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/README.md)

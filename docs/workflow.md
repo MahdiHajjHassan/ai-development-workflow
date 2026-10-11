@@ -1,34 +1,31 @@
-# Workflow mechanics
+# AgentCrew | Planning, Implementation, and Review
 
 > [!CAUTION]
-> **Workflow showcase.**
-> AgentCrew documents my AI engineering approach through a storefront example and task templates. The application source is private; this repository does not include a runnable orchestrator or executed check results. Diagrams are explanatory illustrations. This work is separate from my university final-year project and employer work.
+> **Public workflow documentation.** This repository contains workflow documentation and example task templates; the application source is private. It does not publish a runnable agent orchestrator or executed test results. The storefront is an illustrative task, and diagrams explain the workflow.
 
-I designed AgentCrew around a storefront with an Express REST API and a JavaScript browser application. The workflow connects product intent, bounded implementation, quality review, and human acceptance.
+AgentCrew connects a product request to an AI-assisted code change and a human approval decision. I designed the responsibilities and records so each stage has a clear input and output.
 
-## Responsibilities and artifacts
+## Responsibilities
 
-| Responsibility | Input | Output |
+| Stage | Receives | Produces |
 | --- | --- | --- |
-| Product planning | Problem and intended users | Scope and acceptance criteria |
-| Delivery planning | Approved scope | Tasks, dependencies, and progress |
-| Technical review | Requirements and system constraints | Design choices and implementation boundaries |
-| Implementation | Bounded task and project rules | Reviewable changes and a work record |
-| Quality review | Acceptance criteria and changes | Check results, findings, and remaining gaps |
-| Human ownership | Design choices and review evidence | Tradeoffs, acceptance, and release decisions |
+| Product planning | User need and product context. | Requirements and acceptance criteria. |
+| Delivery planning | Agreed scope. | Tasks, dependencies, and progress. |
+| Technical review | Requirements and application constraints. | API contracts and implementation decisions. |
+| Implementation | Task, decisions, and project conventions. | Code changes and a work record. |
+| Quality review | Requirements and code changes. | Check results, findings, and requested corrections. |
+| Human approval | Change and review record. | A decision to accept, revise, or defer. |
 
-Agents can carry out responsibilities without taking ownership of the product. Human ownership remains with the person responsible for the system and the final decision.
+## Keep decisions available to the next stage
 
-## Keep context in the project
+Project instructions describe conventions. Reusable skills guide recurring tasks. A task folder holds the request, design decisions, progress, and deliverables. Links between these records help the next person or agent understand why a change was made.
 
-Project instructions describe conventions and boundaries. Skills guide recurring work. A task folder keeps the request, decisions, progress, and deliverables together. The knowledge base links those documents so future work can recover the reasoning behind a change.
+When a task resumes, recorded progress is checked against the current repository. This avoids continuing from an outdated assumption about the code.
 
-A continuation starts from the recorded state and current repository, rather than assuming remembered conversation text is authoritative.
+## Example: an item-detail feature
 
-## Review changes and evidence separately
+The storefront uses an Express REST API and a JavaScript browser application. Its [task brief](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/examples/task-brief.md) defines the fields a shopper sees, missing-item behavior, identifier validation, and existing browsing behavior.
 
-Staging makes a proposed change inspectable before acceptance. QA compares it with the acceptance criteria and records the exact checks performed. An unexecuted check stays unexecuted; a generated test or an agent's assertion is not a passed result.
+The [review checklist](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/examples/task-review.md) connects those requirements to the changed files and check results. A reviewer can request corrections, such as removing an internal cost field or fixing a not-found message, before the product owner approves the change.
 
-The [review record](../examples/task-review.md) illustrates how to collect this evidence. It links each criterion to the evidence required for acceptance.
-
-[Project overview](../README.md)
+[Project overview](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/README.md)

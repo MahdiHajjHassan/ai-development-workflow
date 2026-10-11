@@ -1,108 +1,70 @@
-# AgentCrew
+# AgentCrew | AI Software Delivery Workflow
 
 > [!CAUTION]
-> **Workflow showcase.**
-> AgentCrew documents my AI engineering approach through a storefront example and task templates. The application source is private; this repository does not include a runnable orchestrator or executed check results. Diagrams are explanatory illustrations. This work is separate from my university final-year project and employer work.
+> **Public workflow documentation.** This repository contains workflow documentation and example task templates; the application source is private. It does not publish a runnable agent orchestrator or executed test results. The storefront is an illustrative task, and diagrams explain the workflow.
 
-## My AI engineering team: planning, implementation, and review
+## From a feature request to a reviewed code change
 
-I designed an AI engineering workflow that carries a task's purpose all the way to review.
-AgentCrew presents my approach to that work: give each responsibility a clear brief,
-keep decisions with the task, and ask for evidence before accepting a change.
+AI can help write code, but a software task also needs clear requirements, technical decisions, and review. I designed AgentCrew to connect those steps for developers and product owners.
 
-For a developer or product owner, the useful handoff is more than “the code is ready.”
-It explains what changed, why it belongs in the product, and what still needs checking.
-AgentCrew follows that handoff through a storefront task.
+**My contribution:** I defined the planning, implementation, and review responsibilities, the information each stage passed on, and the points where a person approved the design or change.
 
 <picture>
-  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v3-mobile-dark.svg">
-  <source media="(max-width: 540px)" srcset="assets/ai-story-v3-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v3-dark.svg">
-  <img src="assets/ai-story-v3-light.svg" width="680" alt="Planning, technical review, implementation, and quality review share a task brief and decisions. Review can request revision; the human owner accepts or defers the change.">
+  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="assets/ai-story-v4-mobile-dark.svg">
+  <source media="(max-width: 540px)" srcset="assets/ai-story-v4-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-story-v4-dark.svg">
+  <img src="assets/ai-story-v4-light.svg" width="680" alt="Planning and technical review define the task. Implementation supplies code changes, quality review checks them, and a person approves the change or requests revision.">
 </picture>
 
-### The context should travel with the task
+### A concrete task: show a shopper an item's details
 
-A request can sound small and still contain several decisions.
-Which behavior matters to the user? Which information can be shown?
-What must keep working when the change is finished?
+A shopper opens a catalog item before deciding whether to buy it. The task covers an API endpoint and a browser page: show public item fields, handle missing or invalid identifiers, and keep internal purchasing costs out of the response.
 
-I defined the briefs, design decisions, and checkpoints.
-I organized responsibilities around outputs another person can inspect.
-The task record connects the request to the proposed change and the eventual review.
+I used that task to organize the workflow:
 
-### One shopper, one bounded change
+1. **Plan:** define the shopper's need and the expected behavior.
+2. **Review the approach:** agree on the API fields, error handling, and affected parts of the application.
+3. **Implement:** prepare the code changes and record what changed.
+4. **Check:** compare the change with the requirements and record the checks and findings.
+5. **Approve or revise:** the product owner reviews the change and decides whether it is ready.
 
-In the storefront, a shopper opens a catalog item to learn more before buying.
-The requested change is an item-detail endpoint and a browser view.
-Payment, authentication, inventory management, and checkout stay beyond this task.
+### Keep the next person able to continue
 
-The brief turns that simple interaction into specific expectations:
+Each stage receives the requirements and recorded decisions. A reviewer can see why a field belongs in the response, how an unknown item should behave, and which existing browsing behavior must still work.
 
-- A known item shows its public catalog fields.
-- An unknown item gives a useful not-found message.
-- Invalid identifiers receive consistent validation.
-- Internal purchasing costs stay out of the response and the view.
-- Existing catalog browsing continues to work.
-
-The brief requires the public response contract and existing error convention to be settled before implementation.
-Those choices tell the implementer where the task begins and ends.
-They also give the reviewer something concrete to compare with the change.
-
-### A handoff is an artifact
-
-Planning produces the brief and acceptance criteria.
-Delivery planning breaks the scope into tasks and dependencies; technical review resolves the boundaries.
-Implementation should return a scoped diff and a work record.
-Quality review should connect each requirement to the checks actually performed.
-
-The review record connects each scenario to a command, observed behavior, and supporting evidence.
-The owner can inspect the scope, requirement coverage, and remaining concerns before accepting a change.
-
-I designed the acceptance boundary around the human responsible for the product:
-accept the change, request a revision, or defer it with the remaining concerns recorded.
+This is the engineering problem behind AgentCrew: connecting AI-assisted work to a change a person can understand, inspect, and approve.
 
 <details>
-<summary><strong>Workflow mechanics, responsibilities, and review criteria</strong></summary>
+<summary><strong>Engineering details: agent responsibilities, task records, and review</strong></summary>
 
-### Responsibilities and outputs
-
-| Responsibility | What the next stage receives |
+| Responsibility | Output for the next stage |
 | --- | --- |
-| Product planning | Scope and acceptance criteria |
-| Delivery planning | Tasks, dependencies, and progress |
-| Technical review | Design choices and implementation boundaries |
-| Implementation | Reviewable changes and a work record |
-| Quality review | Observed checks, findings, and gaps |
-| Human ownership | Decisions on tradeoffs, acceptance, and release |
-
-### Recover the reasoning before continuing
-
-Project instructions hold conventions and boundaries; reusable skills guide recurring work.
-Task folders keep requests, decisions, progress, and deliverables together.
-A linked knowledge base makes those records discoverable.
-Continuation starts by checking the recorded state against the current repository.
+| Product planning | Requirements and acceptance criteria. |
+| Delivery planning | Tasks, dependencies, and progress. |
+| Technical review | API contracts, design decisions, and scope. |
+| Implementation | Code changes and a record of the work. |
+| Quality review | Check results, findings, and requested corrections. |
+| Human approval | A decision to accept, revise, or defer the change. |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/ai-development-workflow/main/assets/review-workflow-dark.svg">
-  <img src="https://raw.githubusercontent.com/MahdiHajjHassan/ai-development-workflow/main/assets/review-workflow-light.svg" width="680" alt="Existing reference diagram showing product and delivery planning, technical review, implementation, QA, revision paths, and a human release decision.">
+  <img src="https://raw.githubusercontent.com/MahdiHajjHassan/ai-development-workflow/main/assets/review-workflow-light.svg" width="680" alt="Engineering workflow: product and delivery planning, technical review, implementation, QA, revision paths, and a human release decision.">
 </picture>
 
-### What would send the task back for revision?
+### Task records
 
-The review needs evidence for the actual diff, requirement coverage, and any extra scope.
-An exposed purchasing-cost field, unclear invalid-ID behavior, or broken browsing would require correction.
-Missing check evidence remains a gap; generated tests and assertions alone do not establish a pass.
-The owner records the decision after reviewing the change and the evidence.
+I organized requests, decisions, progress, and deliverables together. Project instructions held coding conventions, reusable skills described recurring work, and a linked knowledge base made the decisions easy to find. Before resuming a task, the workflow compared the recorded progress with the current repository.
 
-### Inspect the public artifacts
+### Review criteria
 
-- [Workflow mechanics](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/docs/workflow.md): responsibilities, project context, and continuation.
-- [Task brief](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/examples/task-brief.md): the item-detail scope, criteria, and open technical questions.
-- [Review record](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/examples/task-review.md): scope review, check evidence, and the human decision.
+For the item-detail task, review covers public response fields, invalid and missing identifiers, internal-field exclusion, and existing catalog browsing. The review record connects each requirement to the changed code and check results.
 
-The storefront context uses an Express REST API and a JavaScript browser application.
+The example application uses an Express REST API and a JavaScript browser application.
+
+- [Workflow responsibilities and handoffs](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/docs/workflow.md)
+- [Item-detail task brief](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/examples/task-brief.md)
+- [Code review checklist](https://github.com/MahdiHajjHassan/ai-development-workflow/blob/main/examples/task-review.md)
 
 </details>
 
-[Mahdi Hajj Hassan](https://github.com/MahdiHajjHassan)
+[Back to my portfolio](https://github.com/MahdiHajjHassan)
