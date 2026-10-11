@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"Field notes","category":"Paper","price":18,"description":"Room for a thought, a sketch, a better plan. A notebook that opens flat and goes everywhere.","material":"Recycled paper / linen cover","color":"#edbfa0","label":"MAKE\nSOMETHING","edition":"01"},
+  {"id":2,"name":"Morning vessel","category":"Objects","price":24,"description":"A generous cup for slow mornings. Glazed by hand, with a quiet matte finish.","material":"Glazed stoneware / 280 ml","color":"#b1c5b5","label":"SLOW\nMORNINGS","edition":"02"},
+  {"id":3,"name":"Everyday carry","category":"Carry","price":36,"description":"For books, groceries and everything in between. A substantial cotton bag with an inside pocket.","material":"Heavy cotton canvas / natural","color":"#b2bde0","label":"TAKE\nIT ALONG","edition":"03"},
+  {"id":4,"name":"Desk companion","category":"Objects","price":28,"description":"A simple place for the small things. Keep your daily essentials close at hand.","material":"Birch plywood / clear finish","color":"#e3cf8e","label":"A PLACE\nFOR THINGS","edition":"04"}
+]

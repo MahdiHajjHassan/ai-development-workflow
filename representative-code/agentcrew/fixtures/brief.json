@@ -1,0 +1,5 @@
+{
+  "brand": "Northline",
+  "brief": "Build a storefront for considered everyday objects. Let visitors browse the collection, inspect materials, search by name, and compare a shopping bag total. Keep internal supplier costs out of the public catalog.",
+  "features": ["item_details", "category_filter", "cart_total", "search"]
+}
